@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/radoondas/elasticbeat/beater"
+	"github.com/brandslisten/elasticbeat/beater"
 
 	"github.com/elastic/beats/libbeat/beat"
 	"os"
