@@ -26,7 +26,7 @@ type NodeStats struct {
 	Cluster_name string `json:"cluster_name"`
 	Os           struct {
 		Timestamp    uint64  `json:"timestamp"`
-		Load_average float64 `json:"load_average"`
+		Load_average []float64 `json:"load_average"`
 		Mem          struct {
 			Total_in_bytes uint64 `json:"total_in_bytes"`
 			Free_in_bytes  uint64 `json:"free_in_bytes"`
